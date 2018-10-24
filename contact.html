@@ -9,7 +9,7 @@
 <!--between comments necessary for the sticky navbar-->
 <div class="header"><h2>Contact</h2></div>
 <div id="navbar">
-  <a href="home.html">Home</a>
+  <a href="index.html">Home</a>
   <a href="media.html">Examples</a>
   <a href="schegule.html">Timeline</a>
   <a class="active" href="contact.html">Contact</a>
@@ -29,7 +29,7 @@
   </div>
 
     <div class="column">
-	  <form method="post" action='<?php echo htmlspecialchars(action_page.php["PHP_SELF"]);?>'>
+	  <form method="post" action='<?php echo htmlspecialchars(action_page.php);?>'>
         <label for="fname">First Name</label>
        <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label for="lname">Last Name</label>
